@@ -11,9 +11,9 @@ public class DemoController {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello 123!!";
+		return "Hello Bernowly!!";
 	}
-	
+
 	
 	@RequestMapping("/test")
 	public List<Cobertura> test() {
